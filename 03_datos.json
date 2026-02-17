@@ -1,0 +1,43 @@
+{
+    "ejemplos_json":{
+        "descripcion": "ejemplo de un documento json con varios tipos de datos y estructuras anidadas",
+        "datos": {
+            "nombre": "jorge gonzalez",
+            "edad": "16",
+            "activo": "true",
+            "hobbies": ["futbol","videojuegos","viajar"],
+            "direccion":{
+                "calle": "calle falsa123",
+                "ciudad": "cdmx",
+                "pais": "mexico"
+
+            },
+            "contacto": null
+        },
+        "nota": "este ejemplo muestra como JSON puede representar diferentes tipos de datos y estructuras complejs"
+    },
+    "ejemplo_documento_mongodb":{
+        "description": "Ejemplo de un documento tipico en MongoDB, que utiliza BSON internamente",
+        "datos":{
+            "_id": "67f17f876bc78687776011",
+            "producto": "iPhone 17 Pro Max",
+            "precio": 20000,
+            "disponible": true,
+            "categorias": ["electronica", "telefonos", "iPhone"],
+            "especificaciones":{
+                "procesador": "Exynos 2100",
+                "ram": "8GB",
+                "almacenamiento": "128GB",
+                "pantalla": "6.2 pulgadas",
+                "bateria": "4000mAh"
+            },
+            "fecha_creacion": "2026-01-29T10:00:00Z",
+            "rewiews": [
+                {
+                    "usuario": "techlover",
+                    "comentario": "Excekente servicio y buen telefono"
+                }
+            ]
+        }
+    }
+}
