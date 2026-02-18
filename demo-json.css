@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #c8cac5, #c7c7c4);
+    padding: 30px;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Panel tipo tarjeta */
+.panel {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.panel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtítulos */
+h2 {
+    margin-bottom: 10px;
+    color: #0f1624;
+}
+
+/* Texto descriptivo */
+.panel p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Bloque JSON */
+pre {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+/* Lista de datos extraídos */
+.datos-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Etiquetas */
+.label {
+    font-weight: bold;
+    color: #2a5298;
+}
+
+/* Valores */
+.value {
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .panel {
+        width: 100%;
+    }
+}
